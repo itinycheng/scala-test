@@ -4,7 +4,7 @@ import scala.math.Ordered
 
 /**
  * @author tiny
- * 
+ * reerr
  */
 
 trait Logger {
