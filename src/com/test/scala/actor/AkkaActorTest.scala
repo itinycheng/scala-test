@@ -5,8 +5,7 @@ import akka.actor.ActorSystem
 import akka.actor.Props
 
 object AkkaActorTest extends App{
-  val actsys = ActorSystem();
-  
+  val actsys = ActorSystem();  
   class Hi extends Actor{
     def receive = {
       case msg:String => println("hello " + msg)
